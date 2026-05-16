@@ -1,0 +1,2 @@
+Uma plataforma que facilita a busca por cuidadores, permitindo encontrar profissionais de forma rápida e prática, de acordo com as necessidades do usuário. 
+O sistema utiliza um layout com cores intuitivas para indicar se o cuidador atende às preferências desejadas, além de exibir uma prévia dos serviços oferecidos e avaliações de outros usuários, garantindo mais segurança e confiança na escolha.

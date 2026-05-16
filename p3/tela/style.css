@@ -1,0 +1,209 @@
+body {
+    background-image: url(/tela/imagens/bpp.png);
+    background-color: hsl(135, 36%, 76%);
+    margin: 5px 25px;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.faixa {
+  background-color: #2e7d32;
+  padding: 10px 20px;
+  border: 2px solid white;
+  width: 100%;
+}
+
+.lin ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.lin ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.titulo {
+  font-size: 24px;
+  font-family: w3-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 40px;
+  width: 50px;
+}
+
+.buscar{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.buscar input{
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+    max-width: 400px;
+}
+
+.perfil{
+    height: 40px;
+    width: 40px;
+    flex-shrink: 0;
+}
+
+.ajuda-container{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.btn-ajuda{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #2e7d32;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.ajuda-box{
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  width: 220px;
+  background: white;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px, 10px rgba(0,0,0,0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+  transform: translateY(10px);
+}
+
+.ajuda-container:hover .ajuda-box{
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.list{
+    width: 90%;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.legenda-cor{
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.legenda-cor .idoso{
+  background-image: url(/tela/imagens/idoso.png);
+}
+
+.legenda-cor .autista{
+  background-image: url(/tela/imagens/autista.png);
+}
+
+.legenda-cor .geral{
+  background-image: url(/tela/imagens/geral.png);
+}
+
+.idoso{
+    background-image: url(/tela/imagens/idoso.png);
+}
+
+.autista{
+    background-image: url(/tela/imagens/autista.png);
+}
+
+.geral{
+    background-image: url(/tela/imagens/geral.png);
+}
+
+.list-item{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+}
+
+.list-item-imagem img{
+    border-radius: 50%;
+    width: 60px;
+    margin-top: 120px;
+}
+
+.list-item-nome{
+    margin: 0;
+    font-size: 24px;
+    color: #385555;
+}
+
+.list-item-ection{
+    display: flex;
+    background-color: #e5e5e5;
+    padding: 16px;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.info{
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+@media (max-width: 768px){
+  .lin ul{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .titulo{
+    font-size: 18px;
+  }
+  
+  .buscar{
+    order: 3;
+    width: 100%;
+  }
+  
+  .buscar input{
+    width: 100%;
+  }
+  
+  .perfil{
+    order: 2;
+  }
+}

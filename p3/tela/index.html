@@ -16,10 +16,17 @@
             <ul>
                 <li><img src="/tela/imagens/logo.jpg" alt="Logo" class="logo"></li>
                 <li><h1 class="titulo">BEM POR PERTO</h1></li>
-                <li class="buscar"><input type="text" placeholder="Buscar Cuidador 🔎"></li>
+                <li class="buscar"><input type="text" id="busca" placeholder="Buscar Cuidador 🔎"></li>
                 <li><a href="#"><img src="/tela/imagens/perfil.png" class="perfil"></li></a>
             </ul>
         </nav>
+    </div>
+
+    <div class="filtros">
+        <button onclick="filtrar('todos')">Todos</button>
+        <button onclick="filtrar('idoso')">Idosos</button>
+        <button onclick="filtrar('autista')">Autistas</button>
+        <button onclick="filtrar('geral')">Geral</button>
     </div>
     
     <div class="ajuda-container">
@@ -165,6 +172,7 @@
         </ul>
     </div>
 
+<script src="script.js"></script>
 </body>
 
 </html>

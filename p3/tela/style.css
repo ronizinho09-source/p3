@@ -1,5 +1,5 @@
 body {
-    background-image: url(/tela/imagens/bpp.png);
+    background-image: url(imagens/bpp.png);
     background-color: hsl(135, 36%, 76%);
     margin: 5px 25px;
     padding: 0;
@@ -145,27 +145,27 @@ body {
 }
 
 .legenda-cor .idoso{
-  background-image: url(/tela/imagens/idoso.png);
+  background-image: url(imagens/idoso.png);
 }
 
 .legenda-cor .autista{
-  background-image: url(/tela/imagens/autista.png);
+  background-image: url(imagens/autista.png);
 }
 
 .legenda-cor .geral{
-  background-image: url(/tela/imagens/geral.png);
+  background-image: url(imagens/geral.png);
 }
 
 .idoso{
-    background-image: url(/tela/imagens/idoso.png);
+    background-image: url(imagens/idoso.png);
 }
 
 .autista{
-    background-image: url(/tela/imagens/autista.png);
+    background-image: url(imagens/autista.png);
 }
 
 .geral{
-    background-image: url(/tela/imagens/geral.png);
+    background-image: url(imagens/geral.png);
 }
 
 .list-item{

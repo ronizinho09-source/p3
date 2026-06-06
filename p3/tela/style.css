@@ -67,6 +67,26 @@ body {
     flex-shrink: 0;
 }
 
+.filtros{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.filtros button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #2e7d32;
+    color: white;
+    font-weight: bold;
+}
+
+.filtros button:hover{
+    transform: scale(1.05);
+}
+
 .ajuda-container{
   position: fixed;
   bottom: 20px;
